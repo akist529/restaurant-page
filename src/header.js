@@ -2,34 +2,48 @@ export default function headerBar() {
     const container = document.createElement("div");
     container.id = "header";
 
-    let width = 0;
+    const fretboard = document.createElement("div");
+    fretboard.id = "fretboard";
 
-    for (let i = 0; i < 9; i++) {
+    const strings = document.createElement("div");
+    strings.id = "strings";
+
+    for (let i = 0; i < 5; i++) {
         const fret = document.createElement("div");
         fret.className = "fret";
 
-        fret.style.width = `${width}px`;
-
-        if (i === 4) {
+        if (i === 1) {
             const homeButton = document.createElement("button");
             homeButton.textContent = "Home";
             fret.appendChild(homeButton);
-        } else if (i === 6) {
+        } else if (i === 2) {
             const menuButton = document.createElement("button");
             menuButton.textContent = "Menu";
             fret.appendChild(menuButton);
-        } else if (i === 8) {
+        } else if (i === 3) {
             const contactButton = document.createElement("button");
             contactButton.textContent = "Contact";
-            buttonLayer.appendChild(contactButton);
+            fret.appendChild(contactButton);
         }
 
-        container.appendChild(fret);
-
-        width += (window.innerWidth / 100);
+        fretboard.appendChild(fret);
     }
 
-    container.appendChild(overlay);
-    container.appendChild(buttonLayer);
+    for (let i = 0; i < 3; i++) {
+        const fret = document.createElement("div");
+        fret.className = "fret";
+
+        fretboard.firstChild.appendChild(fret);
+    }
+
+    for (let i = 0; i < 6; i++) {
+        const string = document.createElement("div");
+        string.className = "string";
+
+        strings.appendChild(string);
+    }
+
+    container.appendChild(fretboard);
+    container.appendChild(strings);
     document.body.appendChild(container);
 }
