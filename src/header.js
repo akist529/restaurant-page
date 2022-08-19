@@ -1,3 +1,7 @@
+import contactPage from "./contact";
+import homePage from "./home";
+import menuPage from "./menu";
+
 export default function headerBar() {
     const container = document.createElement("div");
     container.id = "header";
@@ -15,14 +19,17 @@ export default function headerBar() {
         if (i === 1) {
             const homeButton = document.createElement("button");
             homeButton.textContent = "Home";
+            homeButton.id = "homeButton";
             fret.appendChild(homeButton);
         } else if (i === 2) {
             const menuButton = document.createElement("button");
             menuButton.textContent = "Menu";
+            menuButton.id = "menuButton";
             fret.appendChild(menuButton);
         } else if (i === 3) {
             const contactButton = document.createElement("button");
             contactButton.textContent = "Contact";
+            contactButton.id = "contactButton";
             fret.appendChild(contactButton);
         }
 

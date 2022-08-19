@@ -70,6 +70,12 @@ body {
     top: 10px;
 }
 
+#content {
+    background-color: rgb(41, 14, 14);
+
+    margin: 10vw;
+}
+
 #container {
     background-color: black;
     color: white;
