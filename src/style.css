@@ -21,7 +21,7 @@ h1 {
 .string {
     width: 100vw;
 
-    border-top: 5px solid black;
+    border-top: 2px solid black;
 }
 
 .contentBlock {
