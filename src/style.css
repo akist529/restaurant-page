@@ -4,7 +4,11 @@
 }
 
 body {
-    background-color: rgb(30, 28, 39);
+    background-color: #1E1C27;
+}
+
+h1 {
+    grid-row: 1 / 2;
 }
 
 .fret {
@@ -16,6 +20,11 @@ body {
     width: 100vw;
 
     border-top: 5px solid black;
+}
+
+.contentBlock {
+    background-color: #1E1C27;
+    border: 2px solid white;
 }
 
 #header {
@@ -71,9 +80,18 @@ body {
 }
 
 #content {
-    background-color: rgb(41, 14, 14);
+    background-color: #353145;
+    color: white;
+    border-radius: 30px;
 
     margin: 10vw;
+    padding: 5vw;
+}
+
+#content > div {
+    display: grid;
+    grid-template-rows: repeat(4, auto-fill);
+    gap: 20px;
 }
 
 #container {
