@@ -62,11 +62,11 @@ export default function menuPage() {
         }
     }
 
-    menuCat("Starters", "5%", "../src/images/elvis.jpg", "30% 20%");
-    menuItem("It's Only Nachos (But I Like It)", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "$10", "Starters", "../src/images/natasha-bhogal-7sStoaxfJh0-unsplash.jpg");
-    menuItem("Sweet Cauliflower O' Mine", "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat", "$12", "Starters", "../src/images/karolina-kolodziejczak-15h2wzAlsgE-unsplash.jpg", true);
-    menuItem("Live and Let Dip", "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", "$12", "Starters", "../src/images/nicholas-barbaros-FBbGyco88GU-unsplash.jpg", true);
-    menuItem("Down on the Platter", "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum", "$12", "Starters", "../src/images/monika-grabkowska-FVf1ESEBuMI-unsplash.jpg", true);
+    menuCat("Pre-Show", "5%", "../src/images/elvis.jpg", "30% 20%");
+    menuItem("It's Only Nachos (But I Like It)", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "$10", "Pre-Show", "../src/images/natasha-bhogal-7sStoaxfJh0-unsplash.jpg");
+    menuItem("Sweet Cauliflower O' Mine", "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat", "$12", "Pre-Show", "../src/images/karolina-kolodziejczak-15h2wzAlsgE-unsplash.jpg", true);
+    menuItem("Live and Let Dip", "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", "$12", "Pre-Show", "../src/images/nicholas-barbaros-FBbGyco88GU-unsplash.jpg", true);
+    menuItem("Down on the Platter", "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum", "$12", "Pre-Show", "../src/images/monika-grabkowska-FVf1ESEBuMI-unsplash.jpg", true);
 
 
     menuCat("Main Show", "75%", "../src/images/mercury.jpg", "30% 20%");
@@ -83,11 +83,11 @@ export default function menuPage() {
     menuItem("Mango Creme (Come Out Tonight)", "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", "$8.50", "Encore", "../src/images/laura-peruchi-Wo3wvnN6EJU-unsplash.jpg");
 
 
-    menuCat("The Bar", "70%", "../src/images/vanhalen.jpg", "100% 90%");
-    menuItem("Shoot to Thrill", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "$7", "The Bar");
-    menuItem("Comfortably Numb", "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat", "$6", "The Bar");
-    menuItem("Don't Stop Me Now", "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", "$8", "The Bar");
-    menuItem("American Idiot", "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum", "$7", "The Bar");
+    menuCat("Aftershow", "50%", "../src/images/vanhalen.jpg", "100% 90%");
+    menuItem("Shoot to Thrill", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua", "$7", "Aftershow");
+    menuItem("Comfortably Numb", "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat", "$6", "Aftershow");
+    menuItem("Don't Stop Me Now", "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur", "$8", "Aftershow");
+    menuItem("American Idiot", "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum", "$7", "Aftershow");
 
     const vegNotice = document.createElement("p");
     vegNotice.innerHTML = "<em>V denotes vegetarian or vegan options<br/>Please speak to your server for dietary assistance</em>";
