@@ -12,3 +12,8 @@ Shrimp Tacos by Daniel Arriola of Unsplash
 Chocolate Cake by Pushpak Dsilva of Unsplash
 Cheesecake by Kofi Okyere of Unsplash
 Brulee by Laura Peruchi of Unsplash
+
+Elvis Presley by NBC / Getty
+Freddie Mercury by WireImage
+Bruce Springsteen and Clarence Clemons by Art Meripol Photography
+Eddie Van Halen by Globe Photos/Rex/Shutterstock
