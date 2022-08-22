@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 * {
     margin: 0;
@@ -13,6 +15,25 @@ h1 {
     grid-row: 1 / 2;
 }
 
+img {
+    width: 200px;
+    background-size: cover;
+
+    transition: 1s;
+}
+
+img:hover {
+    transform: scale(1.3);
+}
+
+svg {
+    stroke: #000;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
 .fret {
     height: 150px;
     border-right: 5px solid white;
@@ -21,7 +42,7 @@ h1 {
 .string {
     width: 100vw;
 
-    border-top: 5px solid black;
+    border-top: 2px solid black;
 }
 
 .contentBlock {
@@ -35,6 +56,8 @@ h1 {
 }
 
 .contentTitle {
+    font-family: "Playfair Display";
+    font-size: 10vw;
     margin: auto;
 }
 
@@ -42,6 +65,34 @@ h1 {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+}
+
+.catTitle {
+    font-family: "Oswald";
+    font-size: 5vw;
+    letter-spacing: 8px;
+    background-size: cover;
+    padding: 10vw 0;
+    filter: grayscale(100%);
+    box-shadow: 0 0 100px 50px #000000 inset;
+    border-radius: 20px;
+    backdrop-filter: brightness(20%);
+    position: relative;
+    transition: 1s;
+}
+
+.catTitle:hover {
+    transform: scale(1.1);
+}
+
+.menuItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    margin: 50px 0;
+    line-height: 30px;
 }
 
 #header {
