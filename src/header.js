@@ -18,17 +18,17 @@ export default function headerBar() {
 
         if (i === 1) {
             const homeButton = document.createElement("button");
-            homeButton.textContent = "Home";
+            homeButton.textContent = "HOME";
             homeButton.id = "homeButton";
             fret.appendChild(homeButton);
         } else if (i === 2) {
             const menuButton = document.createElement("button");
-            menuButton.textContent = "Menu";
+            menuButton.textContent = "MENU";
             menuButton.id = "menuButton";
             fret.appendChild(menuButton);
         } else if (i === 3) {
             const contactButton = document.createElement("button");
-            contactButton.textContent = "Contact";
+            contactButton.textContent = "CONTACT";
             contactButton.id = "contactButton";
             fret.appendChild(contactButton);
         }
